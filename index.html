@@ -16,21 +16,22 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!-- My CSS file -->
+    <link rel="stylesheet" href="style.css" />
     <!-- This is the title that appears in the browser tag -->
     <title>Melinda Winter</title>
   </head>
   <!-- End head -->
   <!-- Begin body -->
-  <body>
+  <body style="background-color: lightgray;">
     <!-- Begin navbar -->
     <nav
+      style="background-color: deeppink; font-weight: bold;"
       class="navbar navbar-expand-sm navbar-dark"
-      style="background-color: deeppink;"
     >
       <!-- Navbar heading -->
-      <a class="navbar-brand" href="index.html"
-        ><strong>Melinda Winter</strong></a
-      >
+      <a class="navbar-brand" href="index.html">Melinda Winter</a>
+      <!-- This creates the collapsing menu icon -->
       <button
         class="navbar-toggler"
         type="button"
@@ -42,6 +43,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarNav">
         <!-- Pushing the nav items to the left -->
         <ul class="navbar-nav ml-auto">
@@ -59,6 +61,59 @@
       </div>
     </nav>
     <!-- End navbar -->
+
+    <!-- Begin bio pic and text -->
+    <section class="container" style="background-color: floralwhite;">
+      <div class="row pb-5 pt-5">
+        <div class="col-sm-4">
+          <img
+            src="assets/desk2.png"
+            alt="Picture of Melinda Winter"
+            style="border: 5px solid black;"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-sm-8">
+          <h5 class="card-title">About Me</h5>
+          <p class="card-text">
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos. Sed et felis nec mauris luctus egestas ac
+            quis risus. Praesent neque quam, viverra a lobortis at, tempus in
+            erat. Nunc quam nunc, varius facilisis eros quis, gravida posuere
+            risus. Sed nisl ipsum, imperdiet et consectetur et, luctus eu velit.
+            Vestibulum eu venenatis ante. Aliquam vestibulum leo non ante
+            accumsan, eu dapibus ipsum luctus. Nulla hendrerit consequat sem
+            eget eleifend. Phasellus pretium urna felis, in fringilla sapien
+            iaculis non. Praesent elementum, orci quis eleifend aliquet, purus
+            lectus tincidunt ligula, eu pellentesque velit libero fermentum
+            enim.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End bio pic and text -->
+
+    <!-- Begin footer -->
+    <footer
+      style="border-top: 4px solid deeppink; background-color: floralwhite;"
+      class="footer mt-auto py-3 fixed-bottom"
+    >
+      <div class="container">
+        <span class="text-muted">
+          <!-- Social media links with images -->
+          <a href="mailto:melindawinter42@gmail.com"
+            ><img src="assets/gmail-icon-24.png" alt="gmail icon"
+          /></a>
+          <a href="https://github.com/melindawinter">
+            <img src="assets/octocat24.png" alt="github icon" />
+          </a>
+          <a href="http://www.linkedin.com/in/melinda-winter-34a25689">
+            <img src="assets/linkedin.png" alt="linkedin icon" />
+          </a>
+        </span>
+      </div>
+    </footer>
+    <!-- End footer -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
