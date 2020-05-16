@@ -6,4 +6,4 @@ https://blog.hootsuite.com/social-media-icons/
 W3 School and Codecademy
 https://www.themuse.com/advice/the-35-best-personal-websites-weve-ever-seen
 
-![Test Image](2020-05-14-17-12-20.png)
+https://offers.hubspot.com/thank-you/personal-brand-professional-bio-examples?hubs_post-cta=interactive
