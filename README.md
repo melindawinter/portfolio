@@ -9,7 +9,7 @@ This is a website intended to host my professional information and contact detai
 
 ## Usage
 
-This is a site that I hope will be visited by other people in my professional fields and potential new employers or collaborators. It can be used to give people a clearer idea of what I can offer them or their business. The contact page will help visitors quickly and easily reach out to me.
+This is a site that I hope will be visited by other people in my professional field and potential new employers or collaborators. It can be used to give people a clearer idea of what I can offer them or their business. The contact page will help visitors quickly and easily reach out to me.
 
 https://blog.hootsuite.com/social-media-icons/
 W3 School and Codecademy
