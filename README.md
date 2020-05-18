@@ -20,4 +20,4 @@ I also sought out many web resources for this project. I used W3 Schools, Codeca
 
 ## License
 
-I chose a permissive GNU license for this project, so that others can use and modify the code for their own purposes, but the source code cannot become proprietary and changes must be documented.
+I chose a permissive GNU license for this project, so that others can use and modify the code for their own purposes, but the source code cannot become proprietary and changes must be documented. The file name is COPYING as per GNU convention.
