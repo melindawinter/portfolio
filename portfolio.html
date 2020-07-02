@@ -15,7 +15,11 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-
+    <!-- Google cursive font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <!-- My custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- This is the title that appears in the browser tag -->
@@ -24,18 +28,15 @@
   <!-- End head -->
 
   <!-- Begin body -->
-  <body class="pb-5 mb-5" style="background-color: lightgray;">
+  <body class="pb-5 mb-5">
     <!-- Begin navbar -->
-    <nav
-      style="background-color: deeppink; font-weight: bold;"
-      class="navbar navbar-expand-sm navbar-dark mb-5"
-    >
+    <nav class="navbar navbar-expand-sm mb-5">
       <!-- Navbar heading -->
-      <a class="navbar-brand" href="index.html">Melinda Winter</a>
+      <a class="navbar-brand hover" href="index.html">Melinda Winter</a>
 
       <!-- This creates the collapsing menu icon -->
       <button
-        class="navbar-toggler"
+        class="navbar-toggler navbar-light"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -47,17 +48,17 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <!-- Pushing the nav items to the left -->
+        <!-- Pushes the nav links to the left -->
         <ul class="navbar-nav ml-auto">
           <!-- Navbar links -->
           <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link hover" href="index.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link active hover" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>

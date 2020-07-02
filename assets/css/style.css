@@ -3,3 +3,60 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  background-color: lightgray;
+}
+
+.navbar {
+  background-color: floralwhite;
+  border-bottom: 4px solid deeppink;
+}
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+
+.navbar-toggler-icon,
+.nav-link,
+.navbar-brand {
+  color: deeppink;
+
+  font-weight: bold;
+}
+
+/* Creates a hover effect on the navbar menu options */
+.hover:hover {
+  color: #ffb8de;
+}
+
+.active {
+  color: #ffb8de;
+}
+
+.card-body {
+  background-color: floralwhite;
+}
+
+.card-title {
+  color: dimgray;
+  font-weight: bolder;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .container {
+    width: 85%;
+  }
+}
+
+.footer {
+  border-top: 4px solid deeppink;
+  background-color: floralwhite;
+  text-align: center;
+}

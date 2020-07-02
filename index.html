@@ -4,10 +4,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -16,7 +13,11 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-
+    <!-- Google cursive font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <!-- My custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -26,18 +27,15 @@
   <!-- End head -->
 
   <!-- Begin body -->
-  <body class="pb-5 mb-5" style="background-color: lightgray;">
+  <body class="pb-5 mb-5">
     <!-- Begin navbar -->
-    <nav
-      style="background-color: floralwhite; font-weight: bold;"
-      class="navbar navbar-expand-sm navbar-light mb-5"
-    >
+    <nav class="navbar navbar-expand-sm mb-5">
       <!-- Navbar heading -->
-      <a class="navbar-brand" href="index.html">Melinda Winter</a>
+      <a class="navbar-brand hover" href="index.html">Melinda Winter</a>
 
       <!-- This creates the collapsing menu icon -->
       <button
-        class="navbar-toggler"
+        class="navbar-toggler navbar-light"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -52,14 +50,14 @@
         <!-- Pushes the nav links to the left -->
         <ul class="navbar-nav ml-auto">
           <!-- Navbar links -->
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About</a>
+          <li class="nav-item">
+            <a class="nav-link active hover" href="index.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link hover" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link hover" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -67,47 +65,51 @@
     <!-- End navbar -->
 
     <!-- Begin bio pic and text -->
-    <main class="container-sm" style="background-color: floralwhite;">
+    <main class="container" style="background-color: floralwhite;">
       <div class="row py-5">
         <!-- Begin image card -->
-        <figure class="col-sm-4">
-          <div class="card border-dark">
-            <img
-              class="card-img img-fluid"
-              style="border-radius: 50%;"
-              src="assets/images/desk2.png"
-              alt="Melinda Winter"
-            />
+        <figure class="col-8 col-md-4">
+          <div class="card border-0">
+            <div class="card-body">
+              <img
+                id="bio-image"
+                class="card-img img-fluid"
+                style="border-radius: 50%;"
+                src="assets/images/desk2.png"
+                alt="Melinda Winter"
+              />
+            </div>
           </div>
         </figure>
         <!-- Begin bio card -->
-        <section class="col-sm-8">
-          <div class="card border-dark">
+        <section class="col-12 col-md-8">
+          <div class="card border-0">
             <div class="card-body">
               <h5 class="card-title">About Me</h5>
               <p class="card-text">
-                Melinda Winter is the Product Development Manager at Edified, an
-                online training LMS that focuses on helping teachers use their
-                classroom technology. Melinda oversees both course creation and
-                improvements to the company's custom LMS. She is committed to
+                Hello! I'm the Product Development Manager at Edified, an online
+                training LMS that focuses on helping teachers use their
+                classroom technology. I oversee both course creation and
+                improvements to the company's custom LMS. I'm committed to
                 providing an excellent training environment for teachers and
-                understands the challenges they face in mastering new
+                understand the challenges they face in mastering new
                 technologies.
               </p>
+
               <p class="card-text">
-                Before moving into the educational technology field, Melinda
-                taught English and composition at University of California,
-                Riverside, where she got her Master's degree. She combines her
-                love of teaching with her tech expertise to help educators
-                effectively use the new tools that are available to them. She is
-                currently attending a web development boot camp to gain
-                additional skills.
+                Before moving into the educational technology field, I taught
+                English and composition at the University of California,
+                Riverside, where I got my Master's degree. I now combine my love
+                of teaching with my tech expertise to help educators effectively
+                use the new tools that are available to them. I am currently
+                attending a web development boot camp to gain additional skills.
               </p>
+
               <p class="card-text">
-                When she isn't hunched over her computer, Melinda loves to spend
-                time with her husband Jerry and their three cats and one dog.
-                She is also an avid reader and greatly enjoys attending book
-                clubs at a local independent bookstore.
+                When I'm not hunched over my computer, I love to spend time with
+                my husband Jerry and our three cats and one dog. I'm also an
+                avid reader and greatly enjoy attending book clubs at a local
+                independent bookstore.
               </p>
             </div>
           </div>
@@ -117,10 +119,7 @@
     <!-- End bio pic and text -->
 
     <!-- Begin footer -->
-    <footer
-      style="border-top: 4px solid deeppink; background-color: floralwhite;"
-      class="footer mt-auto py-3 fixed-bottom"
-    >
+    <footer class="footer mt-auto py-3 fixed-bottom">
       <div class="container">
         <span class="text-muted">
           <!-- Social media links with images -->
