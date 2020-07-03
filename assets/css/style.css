@@ -39,19 +39,29 @@ body {
   background-color: floralwhite;
 }
 
-.card-title {
-  color: dimgray;
+.title {
+  color: deeppink;
+  font-family: "Dancing Script", cursive;
   font-weight: bolder;
 }
 
 .card-text {
   font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 576px) {
   .container {
-    width: 85%;
+    width: 95%;
+  }
+  .card-text {
+    text-align: justify;
+  }
+  #bio-image {
+    height: auto;
+    width: 150px;
   }
 }
 
