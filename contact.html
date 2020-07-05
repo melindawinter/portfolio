@@ -67,42 +67,90 @@
     <!-- End navbar -->
 
     <!-- Begin form -->
-    <main
-      class="container-sm px-5 py-5 mt-5 mb-5"
-      style="background-color: floralwhite;"
-    >
-      <!-- Form header and greeting -->
-      <section>
-        <h1>Contact me</h1>
-        <p>
-          Let's start collaborating today! Please shoot me a message below and
-          I'll get back to you soon.
-        </p>
-      </section>
-      <form>
-        <!-- Name field -->
-        <div class="form-group">
-          <label for="user">Name</label>
-          <input type="text" class="form-control" id="user" />
+    <main>
+      <div
+        class="container py-5 px-5 mb-5"
+        style="background-color: floralwhite;"
+      >
+        <div class="row">
+          <!-- Form header and greeting -->
+          <section>
+            <h1 class="title">Contact me</h1>
+            <p>
+              Let's start collaborating today! Please shoot me a message below
+              or contact me on social media and I'll get back to you soon.
+            </p>
+          </section>
         </div>
-        <!-- Email field -->
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" />
-          <small id="emailHelp" class="form-text text-muted"
-            >I'll never share your email with anyone else.</small
-          >
+        <div class="row">
+          <div class="col-sm-12 col-md-8">
+            <form>
+              <!-- Name field -->
+              <div class="form-group">
+                <label for="user">Name</label>
+                <input type="text" class="form-control" id="user" />
+              </div>
+              <!-- Email field -->
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >I'll never share your email with anyone else.</small
+                >
+              </div>
+              <!-- Message text box -->
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" rows="3" id="message">
+                </textarea>
+              </div>
+              <!-- Submit button -->
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+          <!-- End form -->
+          <div class="col-sm-12 col-md-4 mt-5 mb-5">
+            <div class="list-group">
+              <button
+                type="button"
+                class="list-group-item list-group-item-action active"
+              >
+                Cras justo odio
+              </button>
+              <button
+                type="button"
+                class="list-group-item list-group-item-action"
+              >
+                Dapibus ac facilisis in
+              </button>
+              <button
+                type="button"
+                class="list-group-item list-group-item-action"
+              >
+                Morbi leo risus
+              </button>
+              <button
+                type="button"
+                class="list-group-item list-group-item-action"
+              >
+                Porta ac consectetur ac
+              </button>
+              <button
+                type="button"
+                class="list-group-item list-group-item-action"
+                disabled
+              >
+                Vestibulum at eros
+              </button>
+            </div>
+          </div>
         </div>
-        <!-- Message text box -->
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea class="form-control" rows="3" id="message"> </textarea>
-        </div>
-        <!-- Submit button -->
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      </div>
     </main>
-    <!-- End form -->
 
     <!-- Begin footer -->
     <footer

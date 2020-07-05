@@ -45,7 +45,7 @@ body {
   font-weight: bolder;
 }
 
-.card-text {
+p {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -63,6 +63,11 @@ body {
     height: auto;
     width: 150px;
   }
+}
+
+.btn {
+  background-color: deeppink;
+  color: floralwhite;
 }
 
 .footer {
