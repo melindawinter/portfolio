@@ -8,16 +8,19 @@ body {
   background-color: lightgray;
 }
 
+/* Styling for navbar */
 .navbar {
-  background-color: floralwhite;
+  background-color: white;
   border-bottom: 4px solid deeppink;
 }
 
+/* Styling for name on navbar */
 .navbar-brand {
   font-family: "Dancing Script", cursive;
   font-size: 30px;
 }
 
+/* Styling for links */
 .navbar-toggler-icon,
 .nav-link,
 .navbar-brand {
@@ -31,63 +34,82 @@ body {
   color: #ffb8de;
 }
 
+/* Color for the active menu item */
 .active {
   color: #ffb8de;
 }
 
-.card-body {
-  background-color: floralwhite;
+/* Styling for jumbotron */
+.jumbotron {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
+/* Card body background color */
+.card-body {
+  background-color: white;
+}
+
+/* Styling for title text on all pages */
 .title {
   color: deeppink;
   font-family: "Dancing Script", cursive;
   font-weight: bolder;
 }
 
+/* General text styling */
 p {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+/* On screens that are 576px wide or less, apply this styling */
 @media screen and (max-width: 576px) {
   .container {
     width: 95%;
   }
+
+  /* Align card text */
   .card-text {
     text-align: justify;
   }
+
+  /* Size bio image */
   #bio-image {
     height: auto;
     width: 150px;
   }
 }
 
-.intro {
-  color: floralwhite;
+.portfolio-image {
+  height: auto;
+  width: 350px;
 }
 
+/* Styling for buttons */
 .btn {
   background-color: deeppink;
-  color: floralwhite;
+  color: white;
 }
 
+/* Styling for heading of contact info */
 .contact {
   font-family: "Open Sans", sans-serif;
   font-weight: bolder;
   text-align: center;
   color: deeppink;
-  background-color: floralwhite;
+  background-color: white;
 }
 
+/* Color for text inputs */
 .form-control {
-  background-color: floralwhite;
+  background-color: white;
 }
 
+/* Styling for footer */
 .footer {
   border-top: 4px solid deeppink;
-  background-color: floralwhite;
+  background-color: white;
   text-align: center;
 }
