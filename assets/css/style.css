@@ -65,9 +65,25 @@ p {
   }
 }
 
+.intro {
+  color: floralwhite;
+}
+
 .btn {
   background-color: deeppink;
   color: floralwhite;
+}
+
+.contact {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: deeppink;
+  background-color: floralwhite;
+}
+
+.form-control {
+  background-color: floralwhite;
 }
 
 .footer {
