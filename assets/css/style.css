@@ -93,13 +93,30 @@ p {
   color: white;
 }
 
+.project-card {
+  background-color: black;
+  color: white;
+  margin: 30px;
+}
+
 /* Styling for heading of contact info */
-.contact {
+/* .contact {
   font-family: "Open Sans", sans-serif;
   font-weight: bolder;
   text-align: center;
   color: deeppink;
-  background-color: white;
+  background-color: black;
+} */
+
+/* Styling for Contact me header */
+.contact-me {
+  font-size: 80px;
+  color: black;
+}
+
+.list-group-item {
+  background-color: black;
+  color: white;
 }
 
 /* Color for text inputs */
